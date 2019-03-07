@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="@drawable/india_bg">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Team:India"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="68dp"
+                android:layout_height="46dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="59dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/four"
+                android:id="@+id/btnt1four"
+                android:onClick="t1four"
+                />
+
+            <ImageButton
+                android:layout_width="184dp"
+                android:layout_height="107dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="135dp"
+                android:layout_marginEnd="-102dp"
+                android:layout_marginRight="-102dp"
+                android:layout_toStartOf="@+id/btnt1six"
+                android:layout_toLeftOf="@+id/btnt1six"
+                android:scaleType="centerInside"
+                android:src="@drawable/add"
+                android:id="@+id/btnt1run"
+                android:onClick="t1run"/>
+
+            <ImageButton
+                android:id="@+id/btnt1six"
+                android:layout_width="68dp"
+                android:layout_height="46dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="82dp"
+                android:layout_marginLeft="82dp"
+                android:layout_marginTop="58dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/six"
+                android:onClick="t1six"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnt1six"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="124dp"
+                android:layout_marginRight="124dp"
+                android:layout_marginBottom="20dp"
+                android:text="out"
+                android:id="@+id/btnt1out"
+                android:onClick="t1out"/>
+
+            <Button
+                android:id="@+id/btnwide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnt1six"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="122dp"
+                android:layout_marginRight="122dp"
+                android:layout_marginBottom="-30dp"
+                android:text="wide"
+                android:onClick="t1run"/>
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="87dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/india_icon"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tvt1runs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="154dp"
+                android:layout_marginEnd="149dp"
+                android:layout_marginRight="149dp"
+                android:text="0"
+                android:textColor="#00f"
+                android:textSize="60dp" />
+
+            <TextView
+                android:id="@+id/tvt1wicket"
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="147dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="0"
+                android:textColor="#f00"
+                android:textSize="60dp" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="254dp"
+                android:layout_marginLeft="254dp"
+                android:layout_marginTop="158dp"
+                android:text="for"
+                android:textColor="#000"
+                android:textSize="45dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="@drawable/pak_bg">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Team:Pakisthan"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="68dp"
+                android:layout_height="46dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="59dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/four"
+                android:id="@+id/btnt2four"
+                android:onClick="t2four"
+                />
+
+            <ImageButton
+                android:layout_width="184dp"
+                android:layout_height="107dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="135dp"
+                android:layout_marginEnd="-102dp"
+                android:layout_marginRight="-102dp"
+                android:layout_toStartOf="@+id/btnt2six"
+                android:layout_toLeftOf="@+id/btnt2six"
+                android:scaleType="centerInside"
+                android:src="@drawable/add"
+                android:id="@+id/btnt2run"
+                android:onClick="t2run"/>
+
+            <ImageButton
+                android:id="@+id/btnt2six"
+                android:layout_width="68dp"
+                android:layout_height="46dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="82dp"
+                android:layout_marginLeft="82dp"
+                android:layout_marginTop="58dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/six"
+                android:onClick="t2six"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnt2six"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="124dp"
+                android:layout_marginRight="124dp"
+                android:layout_marginBottom="20dp"
+                android:text="out"
+                android:id="@+id/btnt2out"
+                android:onClick="t2out"/>
+
+            <Button
+                android:id="@+id/btn2wide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnt2six"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="122dp"
+                android:layout_marginRight="122dp"
+                android:layout_marginBottom="-30dp"
+                android:text="wide"
+                android:onClick="t2run"/>
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="87dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pak_icon"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tvt2runs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="151dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:text="0"
+                android:textColor="#00f"
+                android:textSize="60dp" />
+
+            <TextView
+                android:id="@+id/tvt2wicket"
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="147dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="0"
+                android:textColor="#f00"
+                android:textSize="60dp" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="239dp"
+                android:layout_marginLeft="239dp"
+                android:layout_marginTop="158dp"
+                android:text="for"
+                android:textColor="#000"
+                android:textSize="45dp" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
